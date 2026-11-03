@@ -109,6 +109,7 @@ function renderThumb(project) {
     const img = el('img');
     img.src = project.thumbnail;
     img.alt = project.thumbnailAlt || '';
+    if (project.thumbnailPosition) img.style.objectPosition = project.thumbnailPosition;
     img.loading = 'lazy';
     img.decoding = 'async';
     const chipline = el('div', 'chipline');

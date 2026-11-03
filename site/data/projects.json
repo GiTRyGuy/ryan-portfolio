@@ -49,6 +49,7 @@
     "description": "Rockie Award-winning interactive content, recognized at the 2019 Banff World Media Festival.",
     "thumbnail": "images/damaged.webp",
     "thumbnailAlt": "Damaged poster",
+    "thumbnailPosition": "center 8%",
     "tags": ["Award winner", "Interactive content"],
     "videos": [
       { "url": "https://youtu.be/ehNZeX0C-Zo", "label": "Watch teaser", "title": "Damaged — Teaser" },

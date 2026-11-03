@@ -31,6 +31,7 @@ Each entry in `site/data/projects.json` becomes one card, in the order listed:
 | `thumbnail` | one of these two | Image path, e.g. `images/my-project.webp` (put the file in `site/images/`) |
 | `textThumbnail` | | `{ "brand": "...", "headline": "..." }` for a text-only thumbnail when there's no artwork |
 | `thumbnailAlt` | with `thumbnail` | Describes the image for screen readers |
+| `thumbnailPosition` | no | Which part of the image the 16:10 card shows, as a CSS `object-position` (default `center`). Tall posters usually want `center 10%` or so to keep faces in frame. |
 | `tags` | no | Chips shown on the thumbnail |
 | `videos` | no | One button per video: `[{ "url": "...", "label": "Watch teaser", "title": "Damaged — Teaser" }]`. `label` is the button text (default "Play video"); `title` is the pop-up heading (defaults to the project `title`). |
 | `links` | no | `[{ "label": "Visit site", "url": "https://..." }]`, opened in a new tab |
