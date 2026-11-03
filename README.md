@@ -8,7 +8,7 @@ Ryan Lussing's personal portfolio site. Plain static HTML, CSS and JS.
 |-------------|---------------|
 | `design/`   | `reference.html`, the approved design. It's the source of truth for layout and styling. |
 | `assets/`   | Source assets: `images/`, `fonts/` and `logo/`. Files are copied into `site/` as needed. |
-| `site/`     | The deployable website. **This is the folder the host publishes.** It must work on its own, so it uses relative paths only. |
+| `site/`     | The deployable website. **This is the folder GitHub Pages publishes.** It must work on its own, so it uses relative paths only. |
 
 Inside `site/`:
 
@@ -39,6 +39,21 @@ Each entry in `site/data/projects.json` becomes one card, in the order listed:
 ## Videos
 
 Videos are YouTube or Vimeo embeds. The player only loads when someone clicks a video button, and it opens in a pop-up. Paste a normal share link as the video `url` (`youtube.com/watch?v=…`, `youtu.be/…`, `vimeo.com/…`, including unlisted Vimeo links). Don't commit video files; `.gitignore` blocks them.
+
+## Publishing
+
+The site is hosted on GitHub Pages at https://ryanlussing.com. Every push to `main` that changes `site/` runs `.github/workflows/pages.yml`, which publishes the `site/` folder. Progress shows on the repo's **Actions** tab, usually live within a minute or two.
+
+DNS is at GoDaddy. The website records are:
+
+| Type | Name | Value |
+|------|------|-------|
+| A | `@` | `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` (four records) |
+| AAAA | `@` | `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153` (four records) |
+| CNAME | `www` | `gitryguy.github.io` |
+| TXT | `_github-pages-challenge-GiTRyGuy` | Domain verification value from GitHub |
+
+The MX records (GoDaddy email) are separate and must stay as they are.
 
 ## Local preview
 
