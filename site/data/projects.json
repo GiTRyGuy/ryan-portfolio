@@ -95,8 +95,8 @@
     "title": "Cadillac Live",
     "role": "Service-company highlight",
     "description": "Managed the technical development through Yellow Bear Studios for a multi-platform product experience built with modern web and app technologies.",
-    "thumbnail": "",
-    "textThumbnail": { "brand": "Cadillac Live", "headline": "Enterprise product experience." },
+    "thumbnail": "images/cadillac-live.webp",
+    "thumbnailAlt": "Cadillac Live website with a Cadillac interior and a Start Your Session button",
     "tags": ["Executive Producer", "Technical delivery"],
     "videos": [
       { "url": "https://www.youtube.com/watch?v=JqPr1coX5i4", "label": "Watch video", "title": "Cadillac Live" }
