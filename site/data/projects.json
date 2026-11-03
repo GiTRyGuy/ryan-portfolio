@@ -1,0 +1,102 @@
+[
+  {
+    "title": "GoLando",
+    "role": "Current venture",
+    "description": "AI-powered property maintenance coordination by text. A current platform venture focused on routing maintenance requests, vendor coordination and operations.",
+    "thumbnail": "images/golando.webp",
+    "thumbnailAlt": "GoLando promotional artwork",
+    "tags": ["Founder & CEO", "AI / SaaS"],
+    "videoUrl": "",
+    "links": [{ "label": "Visit site", "url": "https://golando.ca" }]
+  },
+  {
+    "title": "Beast Farmer: Swamp Chicken Edition",
+    "role": "Interactive entertainment",
+    "description": "A breakout mobile title and character-driven interactive experience that hit #1 in Kids Games worldwide and #2 overall on iTunes.",
+    "thumbnail": "images/beast-farmer.webp",
+    "thumbnailAlt": "Beast Farmer title screen artwork",
+    "tags": ["Mobile game", "#1 Kids Game"],
+    "videoUrl": "",
+    "links": []
+  },
+  {
+    "title": "Dex Hamilton",
+    "role": "Co-creator · Producer",
+    "description": "Co-creator, producer, VFX director, writer, of the 26-episode animated series and online game concept, *Dex Hamilton’s Bug Quest*.",
+    "thumbnail": "images/dex-hamilton.webp",
+    "thumbnailAlt": "Dex Hamilton poster artwork",
+    "tags": ["Animated series", "Game concept"],
+    "videoUrl": "",
+    "links": []
+  },
+  {
+    "title": "True and the Rainbow Kingdom",
+    "role": "Interactive kids app",
+    "description": "Interactive preschool gameplay built around the colourful world of *True and the Rainbow Kingdom*.",
+    "thumbnail": "images/true-rainbow-kingdom.webp",
+    "thumbnailAlt": "True and the Rainbow Kingdom artwork",
+    "tags": ["Preschool game", "Kids IP"],
+    "videoUrl": "https://www.youtube.com/watch?v=rElLRwL14o4",
+    "videoLabel": "Watch gameplay",
+    "videoTitle": "True and the Rainbow Kingdom — Gameplay",
+    "links": []
+  },
+  {
+    "title": "Damaged",
+    "role": "Interactive drama",
+    "description": "Rockie Award-winning interactive content, recognized at the 2019 Banff World Media Festival.",
+    "thumbnail": "images/damaged.webp",
+    "thumbnailAlt": "Damaged poster",
+    "tags": ["Award winner", "Interactive content"],
+    "videoUrl": "",
+    "videoLabel": "Play demo",
+    "videoTitle": "Damaged — Trailer",
+    "links": []
+  },
+  {
+    "title": "State of Syn",
+    "role": "Hardware exploration",
+    "description": "Experimental story and interface work for Google Glass and connected hardware experiences.",
+    "thumbnail": "images/state-of-syn.webp",
+    "thumbnailAlt": "State of Syn Google Glass teaser frame",
+    "tags": ["Google Glass", "Experimental"],
+    "videoUrl": "",
+    "videoLabel": "Preview teaser",
+    "videoTitle": "State of Syn — Google Glass teaser",
+    "links": []
+  },
+  {
+    "title": "Yellow Bear Studios",
+    "role": "Studio / agency / production company",
+    "description": "Original studio, service-company and production work spanning entertainment, emerging technology, commercial experiences and digital storytelling.",
+    "thumbnail": "images/yellow-bear-reel.webp",
+    "thumbnailAlt": "Yellow Bear Studios demo reel still",
+    "tags": ["Studio reel", "10+ years"],
+    "videoUrl": "https://www.youtube.com/watch?v=Svwd_GjHRxo",
+    "videoLabel": "Watch demo reel",
+    "videoTitle": "Yellow Bear Studios — Demo reel",
+    "links": []
+  },
+  {
+    "title": "Emoji Warriors",
+    "role": "Prototype gameplay",
+    "description": "Original game concept and gameplay prototype, from key art through to pilot gameplay.",
+    "thumbnail": "images/emoji-warriors.webp",
+    "thumbnailAlt": "Emoji Warriors key art",
+    "tags": ["Original game", "Prototype"],
+    "videoUrl": "",
+    "videoLabel": "Play demo",
+    "videoTitle": "Emoji Warriors — Pilot gameplay",
+    "links": []
+  },
+  {
+    "title": "Cadillac Live",
+    "role": "Service-company highlight",
+    "description": "Managed the technical development through Yellow Bear Studios for a multi-platform product experience built with modern web and app technologies.",
+    "thumbnail": "",
+    "textThumbnail": { "brand": "Cadillac Live", "headline": "Enterprise product experience." },
+    "tags": ["Executive Producer", "Technical delivery"],
+    "videoUrl": "",
+    "links": []
+  }
+]
