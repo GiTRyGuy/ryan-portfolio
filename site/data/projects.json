@@ -10,24 +10,14 @@
     "links": [{ "label": "Visit site", "url": "https://golando.ca" }]
   },
   {
-    "title": "Beast Farmer: Swamp Chicken Edition",
-    "role": "Interactive entertainment",
-    "description": "A breakout mobile title and character-driven interactive experience that hit #1 in Kids Games worldwide and #2 overall on iTunes.",
-    "thumbnail": "images/beast-farmer.webp",
-    "thumbnailAlt": "Beast Farmer title screen artwork",
-    "tags": ["Mobile game", "#1 Kids Game"],
-    "videos": [],
-    "links": []
-  },
-  {
-    "title": "Dex Hamilton",
-    "role": "Co-creator · Producer",
-    "description": "Co-creator, producer, VFX director, writer, of the 26-episode animated series and online game concept, *Dex Hamilton’s Bug Quest*.",
-    "thumbnail": "images/dex-hamilton.webp",
-    "thumbnailAlt": "Dex Hamilton poster artwork",
-    "tags": ["Animated series", "Game concept"],
+    "title": "Cadillac Live",
+    "role": "Service-company highlight",
+    "description": "Managed the technical development through Yellow Bear Studios for a multi-platform product experience built with modern web and app technologies.",
+    "thumbnail": "images/cadillac-live.webp",
+    "thumbnailAlt": "Cadillac Live website with a Cadillac interior and a Start Your Session button",
+    "tags": ["Executive Producer", "Technical delivery"],
     "videos": [
-      { "url": "https://www.youtube.com/watch?v=qgHLK28BK-k", "label": "Watch trailer", "title": "Dex Hamilton — Trailer" }
+      { "url": "https://www.youtube.com/watch?v=JqPr1coX5i4", "label": "Watch video", "title": "Cadillac Live" }
     ],
     "links": []
   },
@@ -40,6 +30,31 @@
     "tags": ["Preschool game", "Kids IP"],
     "videos": [
       { "url": "https://www.youtube.com/watch?v=rElLRwL14o4", "label": "Watch gameplay", "title": "True and the Rainbow Kingdom — Gameplay" }
+    ],
+    "links": []
+  },
+  {
+    "title": "Emoji Warriors",
+    "role": "Prototype gameplay",
+    "description": "Original game concept and gameplay prototype, with a pilot episode and gameplay demo.",
+    "thumbnail": "images/emoji-warriors.webp",
+    "thumbnailAlt": "Emoji Warriors key art",
+    "tags": ["Original game", "Prototype"],
+    "videos": [
+      { "url": "https://youtu.be/SvdvpKhkNIQ", "label": "Watch pilot", "title": "Emoji Warriors — Pilot episode" },
+      { "url": "https://youtu.be/jpvjC66d5DI", "label": "Gameplay demo", "title": "Emoji Warriors — Gameplay demo" }
+    ],
+    "links": []
+  },
+  {
+    "title": "State of Syn",
+    "role": "Hardware exploration",
+    "description": "Experimental story and interface work for Google Glass and connected hardware experiences.",
+    "thumbnail": "images/state-of-syn.webp",
+    "thumbnailAlt": "State of Syn Google Glass teaser frame",
+    "tags": ["Google Glass", "Experimental"],
+    "videos": [
+      { "url": "https://youtu.be/v6NOw-LGalg", "label": "Preview teaser", "title": "State of Syn — Google Glass teaser" }
     ],
     "links": []
   },
@@ -58,18 +73,6 @@
     "links": []
   },
   {
-    "title": "State of Syn",
-    "role": "Hardware exploration",
-    "description": "Experimental story and interface work for Google Glass and connected hardware experiences.",
-    "thumbnail": "images/state-of-syn.webp",
-    "thumbnailAlt": "State of Syn Google Glass teaser frame",
-    "tags": ["Google Glass", "Experimental"],
-    "videos": [
-      { "url": "https://youtu.be/v6NOw-LGalg", "label": "Preview teaser", "title": "State of Syn — Google Glass teaser" }
-    ],
-    "links": []
-  },
-  {
     "title": "Yellow Bear Studios",
     "role": "Studio / agency / production company",
     "description": "Original studio, service-company and production work spanning entertainment, emerging technology, commercial experiences and digital storytelling.",
@@ -82,27 +85,24 @@
     "links": []
   },
   {
-    "title": "Emoji Warriors",
-    "role": "Prototype gameplay",
-    "description": "Original game concept and gameplay prototype, with a pilot episode and gameplay demo.",
-    "thumbnail": "images/emoji-warriors.webp",
-    "thumbnailAlt": "Emoji Warriors key art",
-    "tags": ["Original game", "Prototype"],
-    "videos": [
-      { "url": "https://youtu.be/SvdvpKhkNIQ", "label": "Watch pilot", "title": "Emoji Warriors — Pilot episode" },
-      { "url": "https://youtu.be/jpvjC66d5DI", "label": "Gameplay demo", "title": "Emoji Warriors — Gameplay demo" }
-    ],
+    "title": "Beast Farmer: Swamp Chicken Edition",
+    "role": "Interactive entertainment",
+    "description": "A breakout mobile title and character-driven interactive experience that hit #1 in Kids Games worldwide and #2 overall on iTunes.",
+    "thumbnail": "images/beast-farmer.webp",
+    "thumbnailAlt": "Beast Farmer title screen artwork",
+    "tags": ["Mobile game", "#1 Kids Game"],
+    "videos": [],
     "links": []
   },
   {
-    "title": "Cadillac Live",
-    "role": "Service-company highlight",
-    "description": "Managed the technical development through Yellow Bear Studios for a multi-platform product experience built with modern web and app technologies.",
-    "thumbnail": "images/cadillac-live.webp",
-    "thumbnailAlt": "Cadillac Live website with a Cadillac interior and a Start Your Session button",
-    "tags": ["Executive Producer", "Technical delivery"],
+    "title": "Dex Hamilton",
+    "role": "Co-creator · Producer",
+    "description": "Co-creator, producer, VFX director, writer, of the 26-episode animated series and online game concept, *Dex Hamilton’s Bug Quest*.",
+    "thumbnail": "images/dex-hamilton.webp",
+    "thumbnailAlt": "Dex Hamilton poster artwork",
+    "tags": ["Animated series", "Game concept"],
     "videos": [
-      { "url": "https://www.youtube.com/watch?v=JqPr1coX5i4", "label": "Watch video", "title": "Cadillac Live" }
+      { "url": "https://www.youtube.com/watch?v=qgHLK28BK-k", "label": "Watch trailer", "title": "Dex Hamilton — Trailer" }
     ],
     "links": []
   }
