@@ -32,14 +32,12 @@ Each entry in `site/data/projects.json` becomes one card, in the order listed:
 | `textThumbnail` | | `{ "brand": "...", "headline": "..." }` for a text-only thumbnail when there's no artwork |
 | `thumbnailAlt` | with `thumbnail` | Describes the image for screen readers |
 | `tags` | no | Chips shown on the thumbnail |
-| `videoUrl` | no | YouTube or Vimeo link. Leave it empty to hide the video button. |
-| `videoLabel` | no | Button text (default "Play video") |
-| `videoTitle` | no | Heading in the video pop-up (defaults to `title`) |
+| `videos` | no | One button per video: `[{ "url": "...", "label": "Watch teaser", "title": "Damaged — Teaser" }]`. `label` is the button text (default "Play video"); `title` is the pop-up heading (defaults to the project `title`). |
 | `links` | no | `[{ "label": "Visit site", "url": "https://..." }]`, opened in a new tab |
 
 ## Videos
 
-Videos are YouTube or Vimeo embeds. The player only loads when someone clicks the video button, and it opens in a pop-up. Paste a normal share link into `videoUrl` (`youtube.com/watch?v=…`, `youtu.be/…`, `vimeo.com/…`, including unlisted Vimeo links). Don't commit video files; `.gitignore` blocks them.
+Videos are YouTube or Vimeo embeds. The player only loads when someone clicks a video button, and it opens in a pop-up. Paste a normal share link as the video `url` (`youtube.com/watch?v=…`, `youtu.be/…`, `vimeo.com/…`, including unlisted Vimeo links). Don't commit video files; `.gitignore` blocks them.
 
 ## Local preview
 

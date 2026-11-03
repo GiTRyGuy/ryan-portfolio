@@ -25,7 +25,8 @@ let lastFocus = null;
 // Turn a YouTube or Vimeo page/share URL into an embed URL, or null if unsupported.
 function toEmbedUrl(url) {
   let u;
-  try { u = new URL(url); } catch { return null; }
+  // Accept links pasted without https://, e.g. "youtube.com/watch?v=…"
+  try { u = new URL(/^https?:\/\//i.test(url) ? url : `https://${url}`); } catch { return null; }
   const host = u.hostname.replace(/^(www|m)\./, '');
 
   if (host === 'youtu.be' || host === 'youtube.com' || host === 'youtube-nocookie.com') {
@@ -133,17 +134,18 @@ function renderThumb(project) {
 function renderActions(project) {
   const actions = [];
 
-  if (project.videoUrl) {
-    const embedUrl = toEmbedUrl(project.videoUrl);
-    if (embedUrl) {
-      const btn = el('button', 'button', project.videoLabel || 'Play video');
-      btn.type = 'button';
-      btn.setAttribute('aria-haspopup', 'dialog');
-      btn.addEventListener('click', () => openVideo(embedUrl, project.videoTitle || project.title));
-      actions.push(btn);
-    } else {
-      console.warn(`projects.json: "${project.title}" has a videoUrl that isn't a YouTube or Vimeo link: ${project.videoUrl}`);
+  for (const video of project.videos || []) {
+    if (!video.url) continue;
+    const embedUrl = toEmbedUrl(video.url);
+    if (!embedUrl) {
+      console.warn(`projects.json: "${project.title}" has a video url that isn't a YouTube or Vimeo link: ${video.url}`);
+      continue;
     }
+    const btn = el('button', 'button', video.label || 'Play video');
+    btn.type = 'button';
+    btn.setAttribute('aria-haspopup', 'dialog');
+    btn.addEventListener('click', () => openVideo(embedUrl, video.title || project.title));
+    actions.push(btn);
   }
 
   for (const link of project.links || []) {

@@ -6,7 +6,7 @@
     "thumbnail": "images/golando.webp",
     "thumbnailAlt": "GoLando promotional artwork",
     "tags": ["Founder & CEO", "AI / SaaS"],
-    "videoUrl": "",
+    "videos": [],
     "links": [{ "label": "Visit site", "url": "https://golando.ca" }]
   },
   {
@@ -16,7 +16,7 @@
     "thumbnail": "images/beast-farmer.webp",
     "thumbnailAlt": "Beast Farmer title screen artwork",
     "tags": ["Mobile game", "#1 Kids Game"],
-    "videoUrl": "",
+    "videos": [],
     "links": []
   },
   {
@@ -26,7 +26,7 @@
     "thumbnail": "images/dex-hamilton.webp",
     "thumbnailAlt": "Dex Hamilton poster artwork",
     "tags": ["Animated series", "Game concept"],
-    "videoUrl": "",
+    "videos": [],
     "links": []
   },
   {
@@ -36,9 +36,9 @@
     "thumbnail": "images/true-rainbow-kingdom.webp",
     "thumbnailAlt": "True and the Rainbow Kingdom artwork",
     "tags": ["Preschool game", "Kids IP"],
-    "videoUrl": "https://www.youtube.com/watch?v=rElLRwL14o4",
-    "videoLabel": "Watch gameplay",
-    "videoTitle": "True and the Rainbow Kingdom — Gameplay",
+    "videos": [
+      { "url": "https://www.youtube.com/watch?v=rElLRwL14o4", "label": "Watch gameplay", "title": "True and the Rainbow Kingdom — Gameplay" }
+    ],
     "links": []
   },
   {
@@ -48,9 +48,10 @@
     "thumbnail": "images/damaged.webp",
     "thumbnailAlt": "Damaged poster",
     "tags": ["Award winner", "Interactive content"],
-    "videoUrl": "",
-    "videoLabel": "Play demo",
-    "videoTitle": "Damaged — Trailer",
+    "videos": [
+      { "url": "https://youtu.be/ehNZeX0C-Zo", "label": "Watch teaser", "title": "Damaged — Teaser" },
+      { "url": "https://youtu.be/qMKwVeNNuxQ", "label": "Interactive trailer", "title": "Damaged — Interactive trailer" }
+    ],
     "links": []
   },
   {
@@ -60,9 +61,9 @@
     "thumbnail": "images/state-of-syn.webp",
     "thumbnailAlt": "State of Syn Google Glass teaser frame",
     "tags": ["Google Glass", "Experimental"],
-    "videoUrl": "",
-    "videoLabel": "Preview teaser",
-    "videoTitle": "State of Syn — Google Glass teaser",
+    "videos": [
+      { "url": "https://youtu.be/v6NOw-LGalg", "label": "Preview teaser", "title": "State of Syn — Google Glass teaser" }
+    ],
     "links": []
   },
   {
@@ -72,21 +73,22 @@
     "thumbnail": "images/yellow-bear-reel.webp",
     "thumbnailAlt": "Yellow Bear Studios demo reel still",
     "tags": ["Studio reel", "10+ years"],
-    "videoUrl": "https://www.youtube.com/watch?v=Svwd_GjHRxo",
-    "videoLabel": "Watch demo reel",
-    "videoTitle": "Yellow Bear Studios — Demo reel",
+    "videos": [
+      { "url": "https://www.youtube.com/watch?v=Svwd_GjHRxo", "label": "Watch demo reel", "title": "Yellow Bear Studios — Demo reel" }
+    ],
     "links": []
   },
   {
     "title": "Emoji Warriors",
     "role": "Prototype gameplay",
-    "description": "Original game concept and gameplay prototype, from key art through to pilot gameplay.",
+    "description": "Original game concept and gameplay prototype, with a pilot episode and gameplay demo.",
     "thumbnail": "images/emoji-warriors.webp",
     "thumbnailAlt": "Emoji Warriors key art",
     "tags": ["Original game", "Prototype"],
-    "videoUrl": "",
-    "videoLabel": "Play demo",
-    "videoTitle": "Emoji Warriors — Pilot gameplay",
+    "videos": [
+      { "url": "https://youtu.be/SvdvpKhkNIQ", "label": "Watch pilot", "title": "Emoji Warriors — Pilot episode" },
+      { "url": "https://youtu.be/jpvjC66d5DI", "label": "Gameplay demo", "title": "Emoji Warriors — Gameplay demo" }
+    ],
     "links": []
   },
   {
@@ -96,7 +98,9 @@
     "thumbnail": "",
     "textThumbnail": { "brand": "Cadillac Live", "headline": "Enterprise product experience." },
     "tags": ["Executive Producer", "Technical delivery"],
-    "videoUrl": "",
+    "videos": [
+      { "url": "https://www.youtube.com/watch?v=JqPr1coX5i4", "label": "Watch video", "title": "Cadillac Live" }
+    ],
     "links": []
   }
 ]
