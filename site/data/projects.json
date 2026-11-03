@@ -1,7 +1,7 @@
 [
   {
     "title": "GoLando",
-    "role": "Current venture",
+    "role": "Current venture · Executive Producer",
     "description": "AI-powered property maintenance coordination by text. A current platform venture focused on routing maintenance requests, vendor coordination and operations.",
     "thumbnail": "images/golando.webp",
     "thumbnailAlt": "GoLando promotional artwork",
@@ -11,11 +11,11 @@
   },
   {
     "title": "Cadillac Live",
-    "role": "Service-company highlight",
+    "role": "Service-company highlight · Executive Producer",
     "description": "Managed the technical development through Yellow Bear Studios for a multi-platform product experience built with modern web and app technologies.",
     "thumbnail": "images/cadillac-live.webp",
     "thumbnailAlt": "Cadillac Live website with a Cadillac interior and a Start Your Session button",
-    "tags": ["Executive Producer", "Technical delivery"],
+    "tags": ["Technical delivery"],
     "videos": [
       { "url": "https://www.youtube.com/watch?v=JqPr1coX5i4", "label": "Watch video", "title": "Cadillac Live" }
     ],
@@ -23,7 +23,7 @@
   },
   {
     "title": "True and the Rainbow Kingdom",
-    "role": "Interactive kids app",
+    "role": "Interactive kids app · Executive Producer",
     "description": "Interactive preschool gameplay built around the colourful world of *True and the Rainbow Kingdom*.",
     "thumbnail": "images/true-rainbow-kingdom.webp",
     "thumbnailAlt": "True and the Rainbow Kingdom artwork",
@@ -35,7 +35,7 @@
   },
   {
     "title": "Emoji Warriors",
-    "role": "Prototype gameplay",
+    "role": "Pilot Episode and Gameplay · Executive Producer",
     "description": "Original game concept and gameplay prototype, with a pilot episode and gameplay demo.",
     "thumbnail": "images/emoji-warriors.webp",
     "thumbnailAlt": "Emoji Warriors key art",
@@ -48,7 +48,7 @@
   },
   {
     "title": "State of Syn",
-    "role": "Hardware exploration",
+    "role": "Hardware exploration · Executive Producer",
     "description": "Experimental story and interface work for Google Glass and connected hardware experiences.",
     "thumbnail": "images/state-of-syn.webp",
     "thumbnailAlt": "State of Syn Google Glass teaser frame",
@@ -60,7 +60,7 @@
   },
   {
     "title": "Damaged",
-    "role": "Interactive drama",
+    "role": "Interactive drama · Executive Producer",
     "description": "Rockie Award-winning interactive content, recognized at the 2019 Banff World Media Festival.",
     "thumbnail": "images/damaged.webp",
     "thumbnailAlt": "Damaged poster",
@@ -86,7 +86,7 @@
   },
   {
     "title": "Beast Farmer: Swamp Chicken Edition",
-    "role": "Interactive entertainment",
+    "role": "Interactive entertainment · Executive Producer",
     "description": "A breakout mobile title and character-driven interactive experience that hit #1 in Kids Games worldwide and #2 overall on iTunes.",
     "thumbnail": "images/beast-farmer.webp",
     "thumbnailAlt": "Beast Farmer title screen artwork",
