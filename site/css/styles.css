@@ -108,8 +108,10 @@ button.button{font:inherit;font-weight:700;color:inherit}
 /* Section heading block ---------------------------------------------------- */
 .section{padding:28px 0 0}
 .eyebrow{font-size:.84rem;letter-spacing:.18em;text-transform:uppercase;color:var(--text-eyebrow);margin-bottom:12px}
-.section h2{font-size:clamp(2rem,4vw,3.5rem);line-height:1.02;letter-spacing:-.05em;margin:0 0 12px}
-.section h2 em{font-style:normal;color:var(--gold)}
+/* .bottom h2: the reference left the Connect heading unstyled (it sits outside
+   a .section); it now matches the other section headings, as approved. */
+.section h2,.bottom h2{font-size:clamp(2rem,4vw,3.5rem);line-height:1.02;letter-spacing:-.05em;margin:0 0 12px}
+.section h2 em,.bottom h2 em{font-style:normal;color:var(--gold)}
 .section-intro{max-width:780px;color:var(--muted);font-size:1.03rem;line-height:1.7;margin-bottom:26px}
 
 /* Highlight tiles ---------------------------------------------------------- */
