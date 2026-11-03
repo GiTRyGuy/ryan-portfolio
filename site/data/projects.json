@@ -26,7 +26,9 @@
     "thumbnail": "images/dex-hamilton.webp",
     "thumbnailAlt": "Dex Hamilton poster artwork",
     "tags": ["Animated series", "Game concept"],
-    "videos": [],
+    "videos": [
+      { "url": "https://www.youtube.com/watch?v=qgHLK28BK-k", "label": "Watch trailer", "title": "Dex Hamilton — Trailer" }
+    ],
     "links": []
   },
   {
