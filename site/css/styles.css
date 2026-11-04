@@ -124,6 +124,11 @@ button.button{font:inherit;font-weight:700;color:inherit}
 .highlight p a:hover,.highlight p a:focus-visible{color:var(--gold);text-decoration-color:currentColor}
 .highlight.award{display:flex;flex-direction:column;justify-content:space-between;gap:14px}
 .highlight.award img{width:190px;max-width:100%;height:auto;opacity:.98}
+.highlight.award-logos{grid-column:1/-1}
+.award-logos ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;align-items:center;gap:18px 28px}
+.award-logos li{display:flex;align-items:center;height:44px}
+.award-logos li.wide{height:32px}
+.award-logos img{height:100%;width:auto;max-width:100%}
 
 /* Project cards ------------------------------------------------------------ */
 .grid{display:grid;grid-template-columns:1fr;gap:18px;padding-bottom:40px}
@@ -182,6 +187,9 @@ footer{padding:24px 0 40px;color:var(--text-footer);font-size:.9rem}
   .badge-strip{grid-template-columns:repeat(2,1fr)}
   .highlights{grid-template-columns:repeat(2,1fr)}
   .grid{grid-template-columns:repeat(2,1fr)}
+  .award-logos ul{gap:22px 40px}
+  .award-logos li{height:52px}
+  .award-logos li.wide{height:38px}
   .footerline{flex-direction:row}
 }
 
@@ -191,4 +199,7 @@ footer{padding:24px 0 40px;color:var(--text-footer);font-size:.9rem}
   .highlights{grid-template-columns:repeat(4,1fr)}
   .grid{grid-template-columns:repeat(3,1fr)}
   .links{grid-template-columns:repeat(3,1fr)}
+  .award-logos ul{justify-content:space-between}
+  .award-logos li{height:64px}
+  .award-logos li.wide{height:46px}
 }
