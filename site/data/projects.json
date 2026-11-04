@@ -10,6 +10,18 @@
     "links": [{ "label": "Visit site", "url": "https://golando.ca" }]
   },
   {
+    "title": "Yellow Bear Studios",
+    "role": "Studio / agency / production company",
+    "description": "Original studio, service-company and production work spanning entertainment, emerging technology, commercial experiences and digital storytelling.",
+    "thumbnail": "images/yellow-bear-reel.webp",
+    "thumbnailAlt": "Yellow Bear Studios demo reel still",
+    "tags": ["Studio reel", "10+ years"],
+    "videos": [
+      { "url": "https://www.youtube.com/watch?v=Svwd_GjHRxo", "label": "Watch demo reel", "title": "Yellow Bear Studios — Demo reel" }
+    ],
+    "links": []
+  },
+  {
     "title": "Cadillac Live",
     "role": "Service-company highlight · Executive Producer",
     "description": "Managed the technical development through Yellow Bear Studios for a multi-platform product experience built with modern web and app technologies.",
@@ -47,6 +59,16 @@
     "links": []
   },
   {
+    "title": "Beast Farmer: Swamp Chicken Edition",
+    "role": "Interactive entertainment · Executive Producer",
+    "description": "A breakout mobile title and character-driven interactive experience that hit #1 in Kids Games worldwide and #2 overall on iTunes.",
+    "thumbnail": "images/beast-farmer.webp",
+    "thumbnailAlt": "Beast Farmer title screen artwork",
+    "tags": ["Mobile game", "#1 Kids Game"],
+    "videos": [],
+    "links": []
+  },
+  {
     "title": "State of Syn",
     "role": "Hardware exploration · Executive Producer",
     "description": "Experimental story and interface work for Google Glass and connected hardware experiences.",
@@ -70,28 +92,6 @@
       { "url": "https://youtu.be/ehNZeX0C-Zo", "label": "Watch teaser", "title": "Damaged — Teaser" },
       { "url": "https://youtu.be/qMKwVeNNuxQ", "label": "Interactive trailer", "title": "Damaged — Interactive trailer" }
     ],
-    "links": []
-  },
-  {
-    "title": "Yellow Bear Studios",
-    "role": "Studio / agency / production company",
-    "description": "Original studio, service-company and production work spanning entertainment, emerging technology, commercial experiences and digital storytelling.",
-    "thumbnail": "images/yellow-bear-reel.webp",
-    "thumbnailAlt": "Yellow Bear Studios demo reel still",
-    "tags": ["Studio reel", "10+ years"],
-    "videos": [
-      { "url": "https://www.youtube.com/watch?v=Svwd_GjHRxo", "label": "Watch demo reel", "title": "Yellow Bear Studios — Demo reel" }
-    ],
-    "links": []
-  },
-  {
-    "title": "Beast Farmer: Swamp Chicken Edition",
-    "role": "Interactive entertainment · Executive Producer",
-    "description": "A breakout mobile title and character-driven interactive experience that hit #1 in Kids Games worldwide and #2 overall on iTunes.",
-    "thumbnail": "images/beast-farmer.webp",
-    "thumbnailAlt": "Beast Farmer title screen artwork",
-    "tags": ["Mobile game", "#1 Kids Game"],
-    "videos": [],
     "links": []
   },
   {
