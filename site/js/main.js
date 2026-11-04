@@ -184,7 +184,8 @@ function renderProject(project) {
 
 async function loadProjects() {
   try {
-    const res = await fetch('data/projects.json');
+    // Revalidate every load so edits to the card data show up without waiting out GitHub Pages' 10-minute cache.
+    const res = await fetch('data/projects.json', { cache: 'no-cache' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const projects = await res.json();
     projectGrid.append(...projects.map(renderProject));
